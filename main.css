@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+@import "landing-page/design-by.css";
+@import "landing-page/color-collection.css";
+@import "landing-page/blue-print.css";
+@import "landing-page/latest.css";
+@import "landing-page/footer.css";
+
+
+/* 
+#C3ADFA soft violet 
+#D08CE6 soft magenta
+#330035 dark magenta 
+#FA96CF soft pink 
+#E6ABA5 soft red 
+#FFCBB0 pale orange 
+*/
+
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-fluid {
+  margin: 0 5%;
+  padding: 0 20px;
+}
+
+.box-shadow-down {
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.77);
+  box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.44);
+}
+.box-shadow-center {
+  -webkit-box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, 0.77);
+  box-shadow: 0px 0px 69px 18px rgba(0, 0, 0, 0.44);
+}
+
+input::placeholder{
+  color: #d5e2ea;
+}
+
+/*LAPTOPS AND LARGER DEVICES*/
+@media only screen and (max-width: 1215px) {
+  
+}
+
+/*TABLET DEVICES*/
+@media only screen and (max-width: 1023px) {
+  
+}
+
+/*MOBILE DEVICES*/
+@media only screen and (max-width: 767px) {
+  
+}
+
